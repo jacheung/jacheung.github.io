@@ -1,35 +1,14 @@
 ---
-title: About Journal
-subtitle: A stunning personal blog Jekyll theme with an image-focused design.
-description: A stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-portrait.jpg
+title: Jonathan A. Cheung
+subtitle: Just a bit about me and where I've been!
+description: Just a bit about me and what I've been!
+featured_image: /images/latest/vertical-portrait.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/latest/birthday-2019.jpg)
 
-## Features
+###I spend a lot of time thinking about solving problems with data and learning about how we can build machines and systems we can trust. 
 
-Journal is packed with powerful features to showcase your work:
+###I grew up in San Francisco and fell in love with neuroscience after watching my dad navigate the city effortlessly. I was always amazed at how the brain transformed the outside world into an internal map. This fascination brought me to a degree in computational biology degree at UC San Diego and a presitigious research residency at the NIH studying the brain's memory center, the hippocampus. After a productive research experience at the NIH, I completed a PhD in computational neuroscience studying how the touch is used to build maps. My successes at USC launched me to where I am now: a data scientist with a desire to transform society using innovative and interpretable AI and we can trust.
 
-* Beautiful, minimal design
-* Fixed sidebar images that animate as you browse
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
-
-## Get Index
-
-Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
-
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
+### When I'm not reading the latest in interpretable AI tools I'm braising short ribs, dry aging steaks, or tossing some food on the grill while chatting with friends and throwing back a beer. Possibly could be doing that and doing some carpentry. 
