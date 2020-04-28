@@ -5,9 +5,9 @@ subtitle: What I've learned and believe made my journey so successful
 tags: [phd]
 comments: true
 ---
-I hold fast to what the director of the NIH, Francis Collins, shared to us young researchers before I set off for graduate school at USC: 
+I hold fast to what the director of the National Institute of Health, Francis Collins, shared to us young researchers before we set off for graduate school: 
 > "A doctoral degree is a degree in critical thinking. It is not a degree limited to the field you are studying. Take steps to cultivate an environment and rhythms where you'll love learning and grow in your craft."  
-- Francis Collins
+-Francis Collins
 
 On April 20th, 2020 I successfully defended my thesis, “The Behavioral and Neural Bases of Tactile Object Localization”. As I look back, I feel lucky and grateful to have had a wonderfully productive Ph.D. experience. Though a young lab, Hires laboratory established 2014, the questions we’re answering, the tools we’re using, and the discoveries we have made lead to me believe that we are in the top 95th percentile of all neuroscience labs. During my time from 2015 to 2020, I have authorship in 4 high-impact research articles. As I look back, I attribute this productivity to the environment I was placed in and cultivating healthy rhythms early. Here are a couple of those:
 
@@ -26,7 +26,7 @@ Looking back I saw that I was thinking too small in what defined a great scienti
 The biggest challenge I had to overcome was learning humility in order to receiving criticism well. Solving complex problems required not just grit but the forging fire of individuals who were unafraid to question your every step. I was humbled by the process of angrily defending what I felt were fully fleshed out ideas but still having my team continually pour great ideas onto me. The click happened when I recognized their questioning came from a place of curiosity and not malice or a flex. Standing my tallest and seeing loving teammates pour great ideas onto me was a truly humbling experience. 
 
 > "The true way to be humble is not to stoop until you are smaller than yourself, but to stand at your real height against some higher nature that will show you what the real smallness of your greatness is."  
-- Phillips Brooks.
+-Phillips Brooks.
 
 As an example, when it came to building a predictive behavioral modeling for my first major research project the difficulty came in creative feature engineering and model interpretation. It wasn’t good enough to build a model that predicted well but one that we could understand and press that boundary of what we knew about the brain and behavior. Defining which features were most important and which machine learning tool was best fit required pooling knowledge, experience, and intuition from the team. Eight months of frustrating conversations resulted in a refined model where we, as a team, knew the ins and outs of each intricate component and our first major publication in Cell Press.  
 
