@@ -5,6 +5,9 @@ subtitle: What I've learned and believe made my journey so successful
 tags: [phd]
 comments: true
 ---
+
+![](/images/latest/sfn-2016.jpg)
+
 I hold fast to what the director of the National Institute of Health, Francis Collins, shared to us young researchers before we set off for graduate school: 
 > "A doctoral degree is a degree in critical thinking. It is not a degree limited to the field you are studying. Take steps to cultivate an environment and rhythms where you'll love learning and grow in your craft."  
 -Francis Collins
