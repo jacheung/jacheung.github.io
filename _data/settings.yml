@@ -1,7 +1,7 @@
 basic_settings:
-  site_title: Journal
-  site_tagline: A stunning personal blog Jekyll theme with an image-focused design.
-  favicon_image: /images/favicon.png
+  site_title: Jonathan Cheung
+  site_tagline: Feel free to poke around and see my interests, current projects, and past works. 
+  favicon_image: /images/cortical-computation.png
 
 header_settings:
   logo_image: 
