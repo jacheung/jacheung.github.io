@@ -34,7 +34,7 @@ Looking back I saw that I was thinking too small in what defined a great scienti
 
 As years passed and many conversations were shared over meals and hallway passings, I saw how my thought process was being refined. 
 
-The biggest challenge I had to overcome was learning humility in order to receiving criticism well. Solving complex problems required not just grit but the forging fire of individuals who were unafraid to question your every step. I was humbled by the process of angrily defending what I felt were fully fleshed out ideas but still having my team continually pour great ideas onto me. The click happened when I recognized their questioning came from a place of curiosity and not malice or a flex. Standing my tallest and seeing loving teammates pour great ideas onto me was a truly humbling experience. 
+The biggest challenge I had to overcome was learning humility and receive criticism well. Solving complex problems required not just grit but the forging fire of individuals who were unafraid to question your every step. I was humbled by the process of angrily defending what I felt were fully fleshed out ideas but still having my team continually pour great ideas onto me. The click happened when I recognized their questioning came from a place of curiosity and not malice or a flex. Standing my tallest and seeing loving teammates pour great ideas onto me was a truly humbling experience. 
 
 > "The true way to be humble is not to stoop until you are smaller than yourself, but to stand at your real height against some higher nature that will show you what the real smallness of your greatness is."  
 -Phillips Brooks.
