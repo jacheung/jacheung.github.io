@@ -14,11 +14,11 @@ The brain and behavior are inextricably linked and rodents serve as powerful mod
 
 #### Well, where do we begin? Let’s start by choosing a sensory system.
 
-As you all may know, there are five senses: vision, audition, touch, olfaction, and taste. Each sensory system, using mice as models, has unique advantages and disadvantages which I will briefly go over. 
+As you all may know, there are five senses: vision, audition, touch, olfaction, and taste. Each sensory system, using mice as models, has unique advantages and disadvantages for studying the brain. 
 
 First, _**vision**_ is the most valued sense and much is known about its computation in the periphery and the brain. There are numerous research articles about the computation of vision; applications in machine image recognition, self-driving cars, object detection, and much more. In vision there are disadvantages with hard to design stimuli and difficult stimulus control (e.g. gaze control). 
 
-Second, _**audition**_ provides researchers precise stimuli control unmatched in any other sense. However, accessibility to the cortex is terribly difficult  Both of these senses, vision and audition, also have advantages in complex computations. Complexity is advantageous because it provides a framework to understand how biology has solved a problem that we have yet to figure out. For example, in vision there is the computation of depth perception and object recognition amidst occlusion and in audition source separation, filtering, and the cocktail party effect. 
+Second, _**audition**_ provides researchers precise stimuli control unmatched in any other sense. However, accessibility to the cortex is terribly difficult. Both of these senses, vision and audition, also have advantages in complex computations. Complexity provides a framework to understand how biology has solved a problem that we have yet to figure out. For example, in vision there is the computation of depth perception and object recognition amidst occlusion and in audition source separation, filtering, and the cocktail party effect. 
 
 Third, studying _**touch**_, via mouse whiskers, is advantageous because it is behaviorally relevant (i.e. rodents depend on whiskers for touch similar to how humans use their fingertips), touch features can be simply measured and computed, and the touch cortex (i.e. somatosensory cortex) is well-mapped and easily accessible. Disadvantages currently involve tracking all whiskers in 3-dimensions and control in stimulus sampling (i.e. we can’t choose where and how mice whisk). 
 
