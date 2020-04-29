@@ -4,7 +4,7 @@ title: Reflecting on my doctorate
 subtitle: What I've learned and believe made my journey so successful
 tags: [phd]
 comments: true
-featured_image: '/images/latest/yosemite-sunset.jpg'
+featured_image: '/images/landscapes/yosemite-sunset.jpg'
 ---
 
 I hold fast to what the director of the National Institute of Health, Francis Collins, shared to us young researchers before we set off for graduate school: 
