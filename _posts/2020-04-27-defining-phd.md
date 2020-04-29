@@ -4,6 +4,7 @@ title: Reflecting on my doctorate
 subtitle: What I've learned and believe made my journey so successful
 tags: [phd]
 comments: true
+featured_image: '/images/latest/yosemite-sunset.jpg'
 ---
 
 ![](/images/latest/yosemite-sunset.jpg)
