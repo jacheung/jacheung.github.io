@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How do neuroscientists study the brain?
+title: A primer for studying the neuroscience of touch. 
 subtitle: A primer for studying the neuroscience of touch. 
 tags: [neuroscience]
 comments: true
