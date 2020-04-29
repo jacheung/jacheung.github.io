@@ -13,13 +13,13 @@ I hold fast to what the director of the National Institute of Health, Francis Co
 
 On April 20th, 2020 I successfully defended my thesis, “The Behavioral and Neural Bases of Tactile Object Localization”. As I look back, I feel lucky and grateful to have had a wonderfully productive Ph.D. experience. I believe that the [Hires laboratory](https://www.hireslab.org/), established in 2014 and though young, is in the top 95th percentile of neuroscience labs because of the brilliant minds that are in it, the questions we're answering, the tools we're using, and the discoveries we have made. During my time from 2015 to 2020, I have authorship in 4 high-impact research articles. As I look back, I attribute this productivity to the environment I was placed in and cultivating healthy rhythms early. Below are established rhythms and cultivated environment that I believe made my doctoral journey so successful.
 
-#### **Organize and deliver**:
+#### **Organize and deliver**
 
 I believe this is the key component to solving innovative problems quickly and growing. To those in software development, methods for organization are defined as agile methodologies and frameworks such as Scrum and Kanban. These frameworks highlight clear and actionable goals with daily, weekly, and monthly milestones. With clear milestones operating on short timescales adopters of this principle, whether they be individuals or in teams, adapt and grow quickly. 
 
 As a doctoral student and those in industry that are innovating, the problems you are solving has probably never been tackled before and the steps to reach your goal are likely nebulous. With clear project goals but nebulous steps, frameworks for planning and flexibly improving become ever so important. For myself, I spend the first Sunday of each month planning out goals for each week and every Sunday planning out goals for the daily. Planning involves writing down goals sorted by order of importance with daily, weekly, and monthly deadlines. Set goals that are both practical to reach and also a bit further than you could’ve imagined yourself reaching for. The process of writing down goals mentally prepares your mind so that going to work doesn’t come as a shock. Organize and deliver and you'll go from treading water to swimming with the current. 
 
-#### **Drafting a team**:
+#### **Finding teammates**
 
 My doctorate taught me that the best teams aren’t full of similar individuals. Yes we all know this saying but where that difference should lie was something I had to learn. Hire too diverse a set of individuals and collaboration will be difficult. Hire too similar of individuals and there’ll be no creativity.  
 
