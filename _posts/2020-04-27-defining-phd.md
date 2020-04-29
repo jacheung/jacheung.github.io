@@ -7,8 +7,6 @@ comments: true
 featured_image: '/images/latest/yosemite-sunset.jpg'
 ---
 
-![](/images/latest/yosemite-sunset.jpg)
-
 I hold fast to what the director of the National Institute of Health, Francis Collins, shared to us young researchers before we set off for graduate school: 
 > "A doctoral degree is a degree in critical thinking. It is not a degree limited to the field you are studying. Take steps to cultivate an environment and rhythms where you'll love learning and grow in your craft."  
 -Francis Collins
@@ -24,6 +22,8 @@ As a doctoral student and those in industry that are innovating, the problems yo
 As the first hire, I had a say in choosing who would join our team. I selected individuals who had the same disciplines in organization, as I believed this was the defining trait that made a doctorate successful. However, my manager vetoed many of my decision to pass on individuals and I thought he was dead wrong. After years of working with my team I saw how we devised creative solutions, inspired growth amongst one another, and made fascinating discoveries. We would each spend hours working on our problems and at the end of the day or the week we’d stay after hours, crack open a can of beer, and talk science over great food. These conversations forced each person to clearly communicate their ideas in front of peers that were highly inquisitive and had different ways of thinking. Ideas were refined after each shared meal and we all grew to love having our ideas challenged.  
 
 Looking back I saw that I was thinking too small in what defined a great scientist and what to look for when drafting a successful team. What I look for may broaden in the future but I’ve learned to embrace individuals who are inquisitive and will chase problems down. I believe a team of individuals who embody this simple truth will bring success to any company and mission.
+
+![](/images/latest/sfn-2018.jpg)
 
 **Humility**: As years passed and many conversations were shared over meals and hallway passings, I saw how my thought process was being refined. 
 
