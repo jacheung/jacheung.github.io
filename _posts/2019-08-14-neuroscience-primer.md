@@ -7,12 +7,12 @@ comments: true
 featured_image: '/images/latest/yosemite-sunset.jpg'
 ---
 
-#### The brain and behavior
+#### The brain and behavior.
 
 The brain and behavior are inextricably linked and rodents serve as powerful models to study this. To understand the fundamentals of how the brain represents the outside world, we must first define a behavior, measure the brain during behavior, and finally manipulate the brain to observe how behavior changes. Compared to humans and non-human primates, mice are unmatched in the diversity and sophistication of tools available to label, record, and finely assess the brain across a range of rich behaviors. They stand as model systems to study the brain and how it drives perception. 
 
 
-#### Well, where do we begin? Let’s start by choosing a sensory system
+#### Well, where do we begin? Let’s start by choosing a sensory system.
 
 As you all may know, there are five senses: vision, audition, touch, olfaction, and taste. Each sensory system, using mice as models, has unique advantages and disadvantages which I will briefly go over. 
 
@@ -28,7 +28,7 @@ Lastly for those with molecular backgrounds, the stimulus of _**taste**_ can be 
 
 For questions understanding how the brain and behavior are inextricably linked, touch as a sensory system is perfect. This model system would provide an avenue to precisely monitor behavior, easily record brain activity in the cortex, and manipulate the brain to see how touch and perception is altered.
 
-#### A table to summarize the different senses!
+#### A table to compare the different senses.
 poor, mediocre, good, great
 
 | Sense | Ethological relevance | Spatial stimulus control | Temporal stimulus control | Stimulus measurement | Cortex motifs | Cortex accessibility| 
@@ -52,10 +52,10 @@ poor, mediocre, good, great
 
 <iframe src="https://player.vimeo.com/video/413306603"  width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-But there are so many ways to observe touch! What’s the best way to study touch behaviors and the brain? Questions regarding brain representations of touch are poised for studies using the rodent whisker system. This system offers both ethological and technological advantages. Behaviorally, rodents depend on touch from their whiskers, similar to how humans use their fingers, as a primary sense to explore and navigate the space around them (Vincent 1912). Anatomically, this system is organized with a 1:1 mapping where columns of neurons in S1 are primarily dedicated to processing information for a single whisker (i.e. principal whisker) (Woolsey and Van der Loos 1970). The combination of behavior and anatomical organization provides a convenient way to assess cortical activity in vivo during active whisker behaviors (O’Connor et al., 2010). Technologically, scientists have developed genetic and advanced tools to label specific neuronal populations and probe the brain. 
+But there are so many ways to observe touch! What’s the best way to study touch behaviors and the brain? Questions regarding brain representations of touch are poised for studies using the rodent whisker system. This system offers both ethological and technological advantages. Behaviorally, rodents depend on touch from their whiskers, similar to how humans use their fingers, as a primary sense to explore and navigate the space around them. Anatomically, this system is organized with a 1:1 mapping where columns of neurons in S1 are primarily dedicated to processing information for a single whisker (i.e. principal whisker) (See the below figure). The combination of behavior and anatomical organization provides a convenient way to assess cortical activity in vivo during active whisker behaviors (O’Connor et al., 2010). Technologically, scientists have developed genetic and advanced tools to label specific neuronal populations and probe the brain. 
 
 ![](/images/latest/whisker-barrels.png)
-
-
-
+Left: The mouse whisker pad is organized in specific rows and columns. 
+Middle: A top down view of the somatosensory cortex where columns of neurons are dedicated to processing information for each individual whisker
+Right: The field of cortical columns for processing whisker information. Cortex is divided into six different layers. 
 
