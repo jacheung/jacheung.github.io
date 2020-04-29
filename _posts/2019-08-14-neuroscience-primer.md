@@ -4,7 +4,7 @@ title: A primer for studying the neuroscience of touch.
 subtitle: A primer for studying the neuroscience of touch. 
 tags: [neuroscience]
 comments: true
-featured_image: '/images/latest/yosemite-trees.jpg'
+featured_image: '/images/landscapes/yosemite-trees.jpg'
 ---
 
 #### The brain and behavior.
