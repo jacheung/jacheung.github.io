@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How do we as neuroscientists study the brain?
+title: How do neuroscientists study the brain?
 subtitle: A primer for studying the neuroscience of touch. 
 tags: [neuroscience]
 comments: true
@@ -41,7 +41,7 @@ poor, mediocre, good, great
 
 #### Why are mice so great for studying touch? 
 
-<iframe src="https://vimeo.com/413306603" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/413306603"  width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 But there are so many ways to observe touch! What’s the best way to study touch behaviors and the brain? Questions regarding brain representations of touch are poised for studies using the rodent whisker system. This system offers both ethological and technological advantages. Behaviorally, rodents depend on touch from their whiskers, similar to how humans use their fingers, as a primary sense to explore and navigate the space around them (Vincent 1912). Anatomically, this system is organized with a 1:1 mapping where columns of neurons in S1 are primarily dedicated to processing information for a single whisker (i.e. principal whisker) (Woolsey and Van der Loos 1970). The combination of behavior and anatomical organization provides a convenient way to assess cortical activity in vivo during active whisker behaviors (O’Connor et al., 2010). Technologically, scientists have developed genetic and advanced tools to label specific neuronal populations and probe the brain. 
 
