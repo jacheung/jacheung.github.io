@@ -28,6 +28,7 @@ As the first hire, I had a say in choosing who would join our team. I selected i
 Looking back I saw that I was thinking too small in what defined a great scientist and what to look for when drafting a successful team. What I look for may broaden in the future but I’ve learned to embrace individuals who are inquisitive and will chase problems down. I believe a team of individuals who embody this simple truth will bring success to any company and mission.
 
 ![](/images/latest/sfn-2018.JPG)
+*Two of my favorite lab mates at the the annual Society for Neuroscience conference. Jinho Kim (left), myself (middle), Phillip Maire (right).*
 
 #### **Learning humility**
 
