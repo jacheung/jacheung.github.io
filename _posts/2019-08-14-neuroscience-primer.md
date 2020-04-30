@@ -24,9 +24,9 @@ Third, studying _**touch**_, via mouse whiskers, is advantageous because it is b
 
 With the above three senses, researchers have studied perception by looking at the sensory representation in the cortex. Cortex is what many believe gives humans our intellectual and perceptual abilities, but the circuitry of cortex is complex and much effort is being invested in deciphering the computations performed at each node along the circuit. Compared to the other senses studying _**olfaction**_ in rodents is advantageous because the olfactory bulb performs similar computations as the cortex but its circuitry is simpler. Similar to touch, studying olfaction is ethologically relevant and the region responsible for olfaction perception (i.e. olfactory bulb) is easily accessible for brain recordings.
 
-Lastly for those with molecular backgrounds, the stimulus of _**taste**_ can be simply probed via measurements of specific channels that transduce sweet, umami, sour, salt, spicy and bitter flavors from the periphery (i.e. tongue). 
+Lastly for those with molecular backgrounds, the stimulus of _**taste**_ can be simply probed via measurements of specific channels that transduce sweet, umami, sour, salt, spicy and bitter flavors from the periphery (i.e. tongue). However since taste is the least studied sensory system, research is currently focused on the periphery (i.e. tongue) and not the cortex.
 
-For questions understanding how the brain and behavior are inextricably linked, touch as a sensory system is perfect. This model system would provide an avenue to precisely monitor behavior, easily record brain activity in the cortex, and manipulate the brain to see how touch and perception is altered.
+For questions understanding how the brain and behavior are inextricably linked, touch as a sensory system is perfect. This model system would provide an avenue to precisely monitor behavior, easily record brain activity in the cortex, and manipulate the brain to see how touch perception is altered.
 
 #### A table to compare the different senses.
 poor, mediocre, good, great
@@ -50,7 +50,7 @@ poor, mediocre, good, great
 
 #### Why are mice so great for studying touch? 
 
-<iframe src="https://player.vimeo.com/video/413306603"  width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/413306603"  width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Questions regarding brain representations of touch are poised for studies using the rodent whisker system. This system offers both ethological and technological advantages. Behaviorally, rodents depend on touch from their whiskers, similar to how humans use their fingers, as a primary sense to explore and navigate the space around them. Anatomically, this system is organized with a 1:1 mapping where columns of neurons in the somatosensory cortex are primarily dedicated to processing information for a single whisker (See the below figure). Researchers have also developed and are still pushing the boundaries of tools used to observe the brain. There are numerous genetic mouse lines and advanced observation tools (e.g. two photon calcium imaging and multi-unit electrophysiology recordings) to label specific neurons and record brain activity at high temporal and spatial resolutions. The combination of ethology and advanced tool design make rodents powerful models to assess cortical activity during active touch behaviors. 
 
