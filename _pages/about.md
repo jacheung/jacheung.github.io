@@ -14,3 +14,5 @@ I grew up in San Francisco and fell in love with neuroscience after watching my 
 When I'm not reading the latest in interpretable AI tools I'm braising short ribs, dry aging steaks, or tossing some food on the grill while chatting with friends and throwing back a beer. Possibly could be doing that and some carpentry. 
 
 Check out my [CV](./CV-200429.pdf) and Resume. 
+
+
