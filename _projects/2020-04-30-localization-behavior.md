@@ -1,18 +1,30 @@
 ---
 title: 'Touch behavior'
-subtitle: 'What are the features most important when locating objects with touch?'
+subtitle: 'Using machine learning and experimental design to answer “what is the behavioral basis of touch localization?”'
 date: 2020-04-30 00:00:00
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: /images/landscapes/yosemite-stick.jpg
 ---
 
+![](/images/landscapes/cortical-columns.jpg)
+
 #### Primer
-If you haven’t had a chance take a look at this short primer I wrote about how neuroscientists study touch. It’ll help frame some of these ideas below. 
+If you haven’t had a chance take a look at this short primer I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
 
 In the primer I’ve highlighted how mice serve as powerful models to study touch and the brain. Since the brain and behavior are inextricably linked we can’t fully understand the brain unless we see it in action driving a behavior. If we are to understand how the brain affects behavior we must first carefully dissect that behavior. One fundamental component in touch perception is knowing where objects are. This is part one of what I worked on in my PhD: “How do rodents use their whiskers to identify where objects are?”
 
-#### What does it mean to dissect behavior? 
+As an outline, we'll be covering: 
+1. Background of localization 
+2. Designing a localization behavior
+3. Data acquisition pipeline
+4. Using machine learning and experiments to define which features are most important for touch. 
+5. Bringing it back to the brain. 
 
-Over the past two decades, scientists have been trying to understand what features mice use to search for objects. Recognizing which feature is most important for localization helps us understand the brain in two ways: 1) it gives us as an idea of what representation to look for in the brain :2) whether manipulating that representation will have an effect on behavior
+#### 1. What does it mean to dissect behavior? 
+
+Over the past two decades, scientists have been trying to understand what features mice use to search for objects. Recognizing which feature is most important for localization helps us understand the brain in two ways:
+
+ 1. it provides a frame of reference for how important the brain representing some part of the outside world may be
+ 2. allows us to dissect the neural circuitry and algorithms deployed by the brain to generate behaviors.
 
 In these past two decades, six different models for localization have been proposed and all have gaps in experimental support. I’ll go over each feature briefly but the below diagram should help.
 
@@ -25,10 +37,12 @@ In these past two decades, six different models for localization have been propo
 * Radial distance: mice measure the distance between the follicle and object by comparing the normal force relative to the angle. Since the axis of the pole is parallel to the midline of the mouse, farther positions are associated with longer radial distances.
 * Hilbert recomposition: angle is the angle of the whisker orthogonal to the midline where 90 is parallel with and pointing towards the nose and 0 directly orthogonal to the midline. Using the Hilbert Transform, whisker angle can be decomposed to phase, amplitude, and midpoint. These features together can be combined to losslessly compute angle. 
 
-#### So how can we design a behavior that lets us evaluate object localization? 
-Well to keep things simple, we expanded upon a state-of-the-art behavior and trained head-fixed mice to locate a pole using one whisker. This pole is controlled by a Zaber motor (which gives us XY positioning) and a pneumatic valve that pushes the pole up to be touchable by the mouse’s whiskers. Each trials lasts 4s. For each trial the pole comes up 0.5s from trial start, becomes touchable for approximately 2s, and then falls out of reach for the remainder of the trial. To see how precise mice could tell two positions apart, we gave the mice a water reward if they correctly identified whether the pole was in a close position. This is a go/no-go task where mice learn to lick in close positions and withhold licking in the far ones. 
+#### 2. So how can we design a behavior that lets us evaluate object localization? 
+Well to keep things simple, we expanded upon a state-of-the-art behavior and trained head-fixed mice to locate a pole using one whisker. This pole is controlled by a Zaber motor (which gives us XY positioning) and a pneumatic valve that pushes the pole up to be touchable by the mouse’s whiskers. Each trials lasts 4s. For each trial the pole comes up 0.5s from trial start, becomes touchable for approximately 2s, and then falls out of reach for the remainder of the trial. 
 
-Mice on average become expert after 2 weeks of training; where we defined expert as 75% or more correct across 200 trials. We can also look at the psychometric curves which highlights the mouse’s performance varying with the location of the object. Here we see that the probability of licking (y-axis) decreases as the pole location moves further away, which is what we expected. 
+To see how precise mice could locate objects, we gave the mice reward if they correctly identified the pole in a close position. This is a go/no-go task where mice learn to lick in close positions and withhold licking in the far ones. 
+
+Mice on average become expert after 2 weeks of training. To quantify precision we first look at psychometric curves (see below), which highlights the mouse’s performance varying with the location of the pole. Here we see that the probability of licking decreases as the pole location moves further away, which is what we expected. 
 
 <div class="gallery" data-columns="2">
 	<img src="/images/projects/localization/psychometric-curves.png">
@@ -36,15 +50,15 @@ Mice on average become expert after 2 weeks of training; where we defined expert
 </div>
 
 
-We can evaluate the localization precision by mice by evaluating trials equidistant from the center and plotting false-alarm rates vs hit rates. In signal detection theory, this plot is known as a receiver operating characteristic (ROC) curve. Instead of the usual curve fitting we plot a scatter to highlight the performance of individual mice. We see here that mice are still able to discriminate even within half-millimeter from the decision boundary. As a frame of reference your thumbnail is 2 centimeters meaning that mice can discriminate within 1/40th of your thumbnail!
+ We next quantify precision by evaluating lick probabilities equidistant from the center of the psychometric curves and plotting false-alarm rates vs hit rates. In signal detection theory, this plot is known as a receiver operating characteristic (ROC) curve. Instead of the usual curve fitting we plot a scatter to highlight the performance of individual mice. We see here that mice are still able to discriminate even within half-millimeter from the decision boundary. As a frame of reference your thumbnail is 2 centimeters meaning that mice can discriminate within 1/40th of your thumbnail!
 
-#### How do we gather the data required to answer which model mice use to locate objects? 
+#### 3. How do we gather the data required to answer which model mice use to locate objects? 
 
 To test these models I devised a workflow to measure the behavior and extract the features relevant for each proposed model. This was achieved using high-speed imaging (1000 fps), motion-tracking, physics models, image classification, and time-series filtering (see diagram of the extract, transform, load [ETL] pipeline below). If we want to understand which feature is most important for perception, we’ll look at all the touch features before a decision is made (i.e. all touches before the first blue dot on the whisker traces). 
 
 ![](/images/projects/localization/workflow.png)
 
-#### Which feature is most important location perception? 
+#### 4. Which feature is most important location perception? 
 
 Simply we find that a combination of the touch number and mean whisker angle during touch was the simplest and best model at predicting behavior. Well that’s great but what tools did you use and how did you reach this conclusion? 
 
@@ -58,10 +72,10 @@ The most conservative metric for evaluating ML models on imbalanced datasets is 
 
 ##### What do the models tell us?  
 
-The prediction with individual features and a combinatorial model using all features in an interpretable model gives us confidence that the number of touches, radial distance, and whisker angle at touch are strong candidate features that mice use to localize objects. 
+Prediction with individual features and a combinatorial model using  interpretable models highlights the number of touches, radial distance at touch, and whisker angle at touch are candidate features for location perception in mice.
 
 MCC FIGURE
-Looking at each individual feature and using MCC as our metric I find that the number of touches, radial distance, and whisker angle at touch serve as the best predictors of choice. It should be noted that the combinatorial model using all features and the raw position of the pole serve as the upper ceiling of prediction using just sensory features. We acknowledge that there are many unmeasurable features that could drive choice such as motivational state or lapse in judgment.
+Prediction with individual feature and using MCC as our metric we find that the number of touches, radial distance, and whisker angle at touch serve as the best predictors of choice. It should be noted that the combinatorial model using all features and the raw position of the pole serve as the upper ceiling of prediction using just sensory features. We acknowledge that there are many unmeasurable features that could drive choice such as motivational state or lapse in judgment.
 
 WEIGHT FIGURE
 By looking at the a combinatorial model using all features, both GLM variable weights and random forests out-of-bag error pointed to the same important features -  touch counts, radial distance, and angle. 
@@ -72,7 +86,7 @@ Models are not definitive. They only serve as a foundation for further hypothesi
 
 **Finally using both touch counts and whisker angle at touch, we find that these two features predict choice just as well as using all the features together. With these data and results, we conclude that whisker angle at touch and the number of touches together provide the simplest model to predict mouse localization strategies.**
 
-#### Wow, that was a lot. What does this all mean? 
+#### 5. Wow, that was a lot. What does this all mean? 
 We find two features (number of touches and whisker angle at touch) that are important for predicting choice. Understanding the features that predict the mouse’s location perception gives us a feature to look for in the brain. From the literature we find that these two features can be encoded in the brain. 
 
 For the number of touches, cortex is a likely region to encode this via the number of spikes. What does this mean? Well first, it’s known that mammalian cortex is subdivided into six layers. Layer 4 in is the gateway to cortex and past works has found that this layer faithfully represents touch by spiking. This means that a downstream region that receives information from layer 4 could potentially learn that more spikes means more touches, thus providing a mechanism for how touch counts may be encoded. 
