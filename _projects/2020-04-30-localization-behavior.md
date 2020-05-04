@@ -2,10 +2,11 @@
 title: 'Touch behavior'
 subtitle: 'Using machine learning and experimental design to answer “what is the behavioral basis of touch localization?”'
 date: 2020-04-30 00:00:00
-featured_image: /images/landscapes/yosemite-stick.jpg
+featured_image: /images/landscapes/cortical-columns.jpg
 ---
 
 ![](/images/projects/localization/model-summary.png)
+*Graphical summmary of the conclusions*
 
 #### Primer
 If you haven’t had a chance take a look at this short [primer](http://jacheung.com/blog/neuroscience-primer) I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
