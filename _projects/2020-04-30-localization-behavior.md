@@ -30,8 +30,8 @@ Well to keep things simple, we expanded upon a state-of-the-art behavior and tra
 
 Mice on average become expert after 2 weeks of training; where we defined expert as 75% or more correct across 200 trials. We can also look at the psychometric curves which highlights the mouse’s performance varying with the location of the object. Here we see that the probability of licking (y-axis) decreases as the pole location moves further away, which is what we expected. 
 
-<div class="gallery" data-columns="1">
-	<img src="/images/projects/localization/pscyhometric-curves.png">
+<div class="gallery" data-columns="2">
+	<img src="/images/projects/localization/psychometric-curves.png">
 	<img src="/images/projects/localization/localization-precision.png">
 </div>
 
