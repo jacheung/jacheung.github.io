@@ -5,12 +5,12 @@ date: 2020-04-30 00:00:00
 featured_image: /images/landscapes/yosemite-stick.jpg
 ---
 
-![](/images/landscapes/cortical-columns.jpg)
+![](/images/projects/localization/model-summary.png)
 
 #### Primer
 If you haven’t had a chance take a look at this short [primer](http://jacheung.com/blog/neuroscience-primer) I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
 
-In the primer I’ve highlighted how mice serve as powerful models to study touch and the brain. Since the brain and behavior are inextricably linked we can’t fully understand the brain unless we see it in action driving a behavior. If we are to understand how the brain affects behavior we must first carefully dissect that behavior. One fundamental component in touch perception is knowing where objects are. This is part one of what I worked on in my PhD: “How do rodents use their whiskers to identify where objects are?”
+Since the brain and behavior are inextricably linked we can’t fully understand the brain unless we observe it driving a behavior. But before that, we must carefully dissect the behavior. One fundamental component in touch perception is knowing where objects are. This is part one of what I worked on in my PhD: “How do rodents use touch to locate objects?”
 
 As an outline, we'll be covering: 
 1. Background of localization 
@@ -82,12 +82,20 @@ By looking at the a combinatorial model using all features, both GLM variable we
 
 ##### Well, all of these features look great but how did you simplify to two features? 
 
-Models are not definitive. They only serve as a foundation for further hypothesis testing. To decipher between whisker angle and radial distance we devised a behavioral task that decomposed these two features. On one axis, radial distance was held constant and angle was modulated. On the other, angle was held constant and radial distance modulated. We tested expert mice on this task and found that accuracy when angle was held constant, plummeted to chance levels. Further, when radial distance was held constant accuracy matched performance in the original task. **These data taken together highlight that angle, NOT radial distance, is used by animals during localization.**
+Models are not definitive. They only serve as a foundation for further hypothesis testing. To decipher between whisker angle and radial distance we devised a behavioral task that decomposed these two features. On one axis, radial distance was held constant and angle was modulated. On the other, angle was held constant and radial distance modulated. We tested expert mice on this task and found that accuracy when angle was held constant, plummeted to chance levels. Further, when radial distance was held constant accuracy matched performance in the original task. **These data taken together highlight that angle, NOT radial distance, is used by animals during localization.** (See figure set below, Left)
 
-**Finally using both touch counts and whisker angle at touch, we find that these two features predict choice just as well as using all the features together. With these data and results, we conclude that whisker angle at touch and the number of touches together provide the simplest model to predict mouse localization strategies.**
+**Finally using both touch counts and whisker angle at touch, we find that these two features predict choice just as well as using all the features together. With these data and results, we conclude that whisker angle at touch and the number of touches together provide the simplest model to predict mouse localization strategies.** (See figure set below, Right)
+
+<div class="gallery" data-columns="2">
+	<img src="/images/projects/localization/task-decomposition.png">
+	<img src="/images/projects/localization/combined-vs-simple.png">
+</div>
+
 
 #### 5. Wow, that was a lot. What does this all mean? 
 We find two features (number of touches and whisker angle at touch) that are important for predicting choice. Understanding the features that predict the mouse’s location perception gives us a feature to look for in the brain. From the literature we find that these two features can be encoded in the brain. 
+
+![](/images/projects/localization/model-summary.png)
 
 For the number of touches, cortex is a likely region to encode this via the number of spikes. What does this mean? Well first, it’s known that mammalian cortex is subdivided into six layers. Layer 4 in is the gateway to cortex and past works has found that this layer faithfully represents touch by spiking. This means that a downstream region that receives information from layer 4 could potentially learn that more spikes means more touches, thus providing a mechanism for how touch counts may be encoded. 
 
@@ -95,3 +103,7 @@ For the whisker angle at touch, no one has yet found a representation in or alon
 
 If we can potentially find this representation of angle in the brain, we have the tools to manipulate these populations of neurons and bias perception. Understanding the circuit mechanisms that are involved in localizing objects could lead to potential therapeutics to restore the sense of touch. 
 
+#### Resources
+For the original publication see [here](https://www.sciencedirect.com/science/article/pii/S0960982219309480)
+For the code used to generate all figures see [here](https://github.com/jacheung/localization-behavior)
+For the original dataset in [MATLAB](https://www.dropbox.com/s/0oxsc4uix5zd9dl/BV.mat) and [Python]https://www.dropbox.com/s/0oxsc4uix5zd9dl/BV.mat.
