@@ -8,7 +8,7 @@ featured_image: /images/landscapes/yosemite-stick.jpg
 ![](/images/landscapes/cortical-columns.jpg)
 
 #### Primer
-If you haven’t had a chance take a look at this short primer I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
+If you haven’t had a chance take a look at this short [primer](http://jacheung.com/blog/neuroscience-primer) I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
 
 In the primer I’ve highlighted how mice serve as powerful models to study touch and the brain. Since the brain and behavior are inextricably linked we can’t fully understand the brain unless we see it in action driving a behavior. If we are to understand how the brain affects behavior we must first carefully dissect that behavior. One fundamental component in touch perception is knowing where objects are. This is part one of what I worked on in my PhD: “How do rodents use their whiskers to identify where objects are?”
 
