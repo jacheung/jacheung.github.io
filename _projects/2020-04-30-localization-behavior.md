@@ -1,8 +1,8 @@
 ---
-title: 'Touch behavior'
-subtitle: 'Using machine learning and experimental design to answer “what is the behavioral basis of touch localization?”'
+title: Touch behavior
+subtitle: Using machine learning and experimental design to answer “what is the behavioral basis of touch localization?”
 date: 2020-04-30 00:00:00
-featured_image: /images/landscapes/cortical-columns.jpg
+featured_image: /images/localization/mouse-whiskers.jpg
 ---
 
 #### Primer
