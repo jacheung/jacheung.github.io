@@ -5,7 +5,7 @@ date: 2020-04-30 00:00:00
 featured_image: /images/landscapes/cortical-columns.jpg
 ---
 
-![](/images/projects/localization/model-summary.png =300x450)
+![](/images/projects/localization/model-summary.png)
 *Graphical summmary of the conclusions*
 
 #### Primer
