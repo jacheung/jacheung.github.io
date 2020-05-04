@@ -5,7 +5,7 @@ date: 2020-04-30 00:00:00
 featured_image: /images/landscapes/cortical-columns.jpg
 ---
 
-![](/images/projects/localization/model-summary.png)
+![](/images/projects/localization/model-summary.png =150x250)
 *Graphical summmary of the conclusions*
 
 #### Primer
@@ -96,8 +96,6 @@ Models are not definitive. They only serve as a foundation for further hypothesi
 #### 5. Wow, that was a lot. What does this all mean? 
 We find two features (number of touches and whisker angle at touch) that are important for predicting choice. Understanding the features that predict the mouse’s location perception gives us a feature to look for in the brain. From the literature we find that these two features can be encoded in the brain. 
 
-![](/images/projects/localization/model-summary.png)
-
 For the number of touches, cortex is a likely region to encode this via the number of spikes. What does this mean? Well first, it’s known that mammalian cortex is subdivided into six layers. Layer 4 in is the gateway to cortex and past works has found that this layer faithfully represents touch by spiking. This means that a downstream region that receives information from layer 4 could potentially learn that more spikes means more touches, thus providing a mechanism for how touch counts may be encoded. 
 
 For the whisker angle at touch, no one has yet found a representation in or along the way to somatosensory cortex. Instead, they have found that regions such as thalamus and whisker motor cortex (two key regions that project to whisker somatosensory cortex) encode decomposed components of whisker angle. What does that mean? Angle can be decomposed to phase, amplitude, and midpoint and these features can together compute angle losslessly. Previous works have identified that midpoint and amplitude are encoded in projections from motor cortex and phase in projections from thalamus. One key region that integrates all this information is L5B. These neurons have apical dendrites that reach up to the top layers of cortex to receive information from motor cortex and basal dendrites to receive information directly from thalamus. 
@@ -105,6 +103,6 @@ For the whisker angle at touch, no one has yet found a representation in or alon
 If we can potentially find this representation of angle in the brain, we have the tools to manipulate these populations of neurons and bias perception. Understanding the circuit mechanisms that are involved in localizing objects could lead to potential therapeutics to restore the sense of touch. 
 
 #### Resources
-For the original publication see [here](https://www.sciencedirect.com/science/article/pii/S0960982219309480)
-For the code used to generate all figures see [here](https://github.com/jacheung/localization-behavior)
-For the original dataset in [MATLAB](https://www.dropbox.com/s/0oxsc4uix5zd9dl/BV.mat) and [Python]https://www.dropbox.com/s/0oxsc4uix5zd9dl/BV.mat.
+For the original publication see [here](https://www.sciencedirect.com/science/article/pii/S0960982219309480).  
+For the code used to generate all figures see [here](https://github.com/jacheung/localization-behavior).  
+For the original dataset in [MATLAB](https://www.dropbox.com/s/0oxsc4uix5zd9dl/BV.mat) and [Python](https://www.dropbox.com/s/0oxsc4uix5zd9dl/BV.mat).
