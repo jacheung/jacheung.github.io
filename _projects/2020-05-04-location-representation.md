@@ -1,6 +1,6 @@
 ---
-title: ‘Touch location representation'
-subtitle: 'Using machine learning and experimental design to discover how the brain represents object locations.'
+title: Touch location representation
+subtitle: Using machine learning and experimental design to discover how the brain represents object locations.
 date: 2020-05-04 00:00:00
 featured_image: /images/landscapes/cortical-projections.jpg
 ---

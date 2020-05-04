@@ -91,7 +91,7 @@ Models are not definitive. They only serve as a foundation for further hypothesi
 
 
 #### 5. Wow, that was a lot. What does this all mean? 
-We find two features (number of touches and whisker angle at touch) that are important for predicting choice. Understanding the features that predict the mouse’s location perception gives us a feature to look for in the brain. From the literature we find that these two features can be encoded in the brain. 
+We find two features, the number of touches and whisker angle at touch, that are important for object location perception (see graphical summary below). From the literature we find that these two features can be encoded in the brain. 
 
 ![](/images/projects/localization/model-summary.png)
 *Graphical summmary of the conclusions*
