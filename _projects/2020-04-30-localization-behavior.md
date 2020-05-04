@@ -5,9 +5,6 @@ date: 2020-04-30 00:00:00
 featured_image: /images/landscapes/cortical-columns.jpg
 ---
 
-![](/images/projects/localization/model-summary.png)
-*Graphical summmary of the conclusions*
-
 #### Primer
 If you haven’t had a chance take a look at this short [primer](http://jacheung.com/blog/neuroscience-primer) I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
 
@@ -95,6 +92,9 @@ Models are not definitive. They only serve as a foundation for further hypothesi
 
 #### 5. Wow, that was a lot. What does this all mean? 
 We find two features (number of touches and whisker angle at touch) that are important for predicting choice. Understanding the features that predict the mouse’s location perception gives us a feature to look for in the brain. From the literature we find that these two features can be encoded in the brain. 
+
+![](/images/projects/localization/model-summary.png)
+*Graphical summmary of the conclusions*
 
 For the number of touches, cortex is a likely region to encode this via the number of spikes. What does this mean? Well first, it’s known that mammalian cortex is subdivided into six layers. Layer 4 in is the gateway to cortex and past works has found that this layer faithfully represents touch by spiking. This means that a downstream region that receives information from layer 4 could potentially learn that more spikes means more touches, thus providing a mechanism for how touch counts may be encoded. 
 
