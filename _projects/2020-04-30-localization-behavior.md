@@ -6,9 +6,9 @@ featured_image: /images/projects/localization/mouse-whisker.jpg
 ---
 
 #### Primer
-If you haven’t had a chance take a look at this short [primer](http://jacheung.com/blog/neuroscience-primer) I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
+If you haven’t taken a look yet, chekc out this short [primer](http://jacheung.com/blog/neuroscience-primer) I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
 
-Since the brain and behavior are inextricably linked we can’t fully understand the brain unless we observe it driving a behavior. But before that, we must carefully dissect the behavior. One fundamental component in touch perception is knowing where objects are. This is part one of what I worked on in my PhD: “How do rodents use touch to locate objects?”
+Since the brain and behavior are inextricably linked we can’t fully understand the brain unless we observe it driving a behavior. But before that, we must carefully dissect the behavior. One fundamental component in touch behaviors is knowing where objects are. This is part one of what I worked on in my PhD: “How do rodents use touch to locate objects?”
 
 As an outline, we'll be covering: 
 1. Background of localization 
@@ -17,7 +17,7 @@ As an outline, we'll be covering:
 4. Using machine learning and experiments to define which features are most important for touch. 
 5. Bringing it back to the brain. 
 
-#### 1. What does it mean to dissect behavior? 
+#### 1. What's important about touch localization? 
 
 Over the past two decades, scientists have been trying to understand what features mice use to search for objects. Recognizing which feature is most important for localization helps us understand the brain in two ways:
 
@@ -96,9 +96,9 @@ We find two features, the number of touches and whisker angle at touch, that are
 ![](/images/projects/localization/model-summary.png)
 *Graphical summmary of the conclusions*
 
-For the number of touches, cortex is a likely region to encode this via the number of spikes. What does this mean? Well first, it’s known that mammalian cortex is subdivided into six layers. Layer 4 in is the gateway to cortex and past works has found that this layer faithfully represents touch by spiking. This means that a downstream region that receives information from layer 4 could potentially learn that more spikes means more touches, thus providing a mechanism for how touch counts may be encoded. 
+For the number of touches, cortex is a likely region to encode this via the number of spikes. What does this mean? Well first, it’s known that mammalian cortex is subdivided into six layers. Layer 4 is the gateway to cortex and past research has found that this layer faithfully represents touch by spiking. This means that a downstream region that receives information from layer 4 could potentially learn that more spikes means more touches, thus providing a mechanism for how the number of touches may be encoded. 
 
-For the whisker angle at touch, no one has yet found a representation in or along the way to somatosensory cortex. Instead, they have found that regions such as thalamus and whisker motor cortex (two key regions that project to whisker somatosensory cortex) encode decomposed components of whisker angle. What does that mean? Angle can be decomposed to phase, amplitude, and midpoint and these features can together compute angle losslessly. Previous works have identified that midpoint and amplitude are encoded in projections from motor cortex and phase in projections from thalamus. One key region that integrates all this information is L5B. These neurons have apical dendrites that reach up to the top layers of cortex to receive information from motor cortex and basal dendrites to receive information directly from thalamus. 
+For the whisker angle at touch, no one has yet found a representation in or along the way to somatosensory cortex. Instead, they have found that regions such as thalamus and whisker motor cortex (two key regions that project to whisker somatosensory cortex) encode decomposed components of whisker angle. What does that mean? Angle can be decomposed to phase, amplitude, and midpoint and these features can together compute angle losslessly. As a sidenote, the [research article]((https://www.sciencedirect.com/science/article/pii/S0960982219309480) this write up is based on goes into further detail about how the decomposed components of angle drive touch location perception. Previous works have identified that midpoint and amplitude are encoded in projections from motor cortex and phase in projections from thalamus. One key region that integrates all this information is L5B. These neurons have apical dendrites that reach up to the top layers of cortex to receive information from motor cortex and basal dendrites to receive information directly from thalamus. 
 
 If we can potentially find this representation of angle in the brain, we have the tools to manipulate these populations of neurons and bias perception. Understanding the circuit mechanisms that are involved in localizing objects could lead to potential therapeutics to restore the sense of touch. 
 
