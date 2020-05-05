@@ -7,7 +7,7 @@ featured_image: /images/vertical-portrait.jpg
 
 ![](/images/latest/birthday-2019.jpg)
 
-Check out my [CV](https://jacheung.github.io/images/CV-200429.pdf).
+Check out my CV [here](https://jacheung.github.io/images/CV-200429.pdf).
 
 I spend a lot of time thinking about solving problems with data and building AI we can trust. 
 
