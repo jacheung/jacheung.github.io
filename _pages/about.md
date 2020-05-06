@@ -5,7 +5,7 @@ description: Just a bit about me and what I've been!
 featured_image: /images/vertical-portrait.jpg
 ---
 
-![](/images/latest/birthday-2019.jpg)
+![](/images/landscapes/flat-lay.jpg)
 
 Check out my CV [here](https://jacheung.github.io/images/CV-200429.pdf).
 
