@@ -7,3 +7,5 @@ featured_image: /images/landscapes/cortical-columns.jpg
 
 #### Primer
 If you haven’t had a chance yet, read this short [primer](http://jacheung.com/blog/neuroscience-primer) on how neuroscientists study touch and this previous project about [touch behaviors](http://jacheung.com/project/localization-behavior) I worked on. Both will help frame why we set off on the journey into the brain. 
+
+I'm currently drafting this project in a reader friendly manner but it'll be updated soon! I promise. 
