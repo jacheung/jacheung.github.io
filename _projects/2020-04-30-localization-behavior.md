@@ -6,7 +6,7 @@ featured_image: /images/projects/localization/mouse-whisker.jpg
 ---
 
 #### Primer
-If you haven’t taken a look yet, chekc out this short [primer](http://jacheung.com/blog/neuroscience-primer) I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
+If you haven’t taken a look yet, check out this short [primer](http://jacheung.com/blog/neuroscience-primer) I wrote about how neuroscientists study touch. It’ll help frame the ideas below. 
 
 Since the brain and behavior are inextricably linked we can’t fully understand the brain unless we observe it driving a behavior. But before that, we must carefully dissect the behavior. One fundamental component in touch behaviors is knowing where objects are. This is part one of what I worked on in my PhD: “How do rodents use touch to locate objects?”
 
