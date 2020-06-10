@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beyond correlation to causation. 
+title: Ideas on causal thinking.
 subtitle: Thoughts on building better AI. 
 tags: [AI]
 comments: true
