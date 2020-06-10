@@ -9,6 +9,8 @@ featured_image: '/images/latest/path-analysis/top-down.JPG'
 
 On my quest to build smarter AI systems we can trust and understand, I’ve found myself breezing through Judea Pearl’s book “The Book of Why” to understand causal reasoning. Pearl pitches the use of causal models as a bridge from objective data to subjective reasoning. If machines were able to build causal (or what Pearl refers to as subjective hypotheses) models of the world, they would not require massive amounts of data to train and could extrapolate experiences to unknown instances. In a sense, machines could creatively make hypothesis about the world and test them and explain to humans, via a causal model, why a certain decision was predicted. 
 
+Below are a collection of initial thoughts. 
+
 ### The ladder of causation 
 
 Pearl first frames the benefits of causal reasoning via the Ladder of Causation. 
