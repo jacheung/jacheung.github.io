@@ -1,0 +1,48 @@
+---
+layout: post
+title: Beyond correlation to quantifying causation. 
+subtitle: Thoughts on building better AI. 
+tags: [AI]
+comments: true
+---
+
+On my quest to build smarter AI systems we can trust and understand, I’ve found myself breezing through Judea Pearl’s book “The Book of Why” to understand causal reasoning. Pearl pitches the use of causal models as a bridge from objective data to subjective reasoning. If machines were able to build causal (or what Pearl refers to as subjective hypotheses) models of the world, they would not require massive amounts of data to train and could extrapolate experiences to unknown instances. In a sense, machines could creatively make hypothesis about the world and test them. 
+
+### The ladder of causation 
+
+Pearl first frames the benefits of causal reasoning via the Ladder of Causation. 
+
+1. Association - At the lowest level (i.e. rung one) there is association (linking A -> B; seeing and observing). This is the limit of current machine learning models. ML models linearly/non-linearly correlate A -> B. 
+2. Intervention (doing/intervening) what if I do? How? 
+3. Counterfactuals (imagining a counter-scenario, understanding) what if I had done? Why? 
+
+Pearl agues that data by itself is dumb. At the crux of his argument, data is unable to surpass rung one of the ladder. Machines using just data are unable to answer questions “what would happen if I did this” in Rung Two and importantly “what if i had done this instead?” in Rung Three. In a sense, machines are unable to predict cases that deviate too far from what they have seen. 
+
+> “While probabilities encode our beliefs about a static world, causality tells us whether and how probabilities change when the world changes, be it by intervention or act of imagination.”
+- Judea Pearl
+
+### A tool to quantify causation - path analysis
+
+Well how do we move from these nebulous ideas of causal models to quantifiable metrics. In the past, some have proposed the use of Granger Causality or Vector Autoregression as a tool to understand causality. However they both lack… Pearl proposes the use of path analyses (i.e. structural equation modeling) as a quantitative metric for linking correlation to causation. 
+
+Now path analysis wasn’t Pearl idea but a revival of Sewall Wright’s ideas back in 1920. Sewall Wright in his quest to try breed a full white or full colored guinea pig (even by inbreeding which Mendelian genetics thought that a trait could be fixed by multiple generations) revived causal thought. His failure to breed a full colored/white guinea pig caused him to think that there were other forces such as Developmental (D) and Environmental (E) that was built on top of Genetics (G) to generate color patterns. To express his thoughts, Sewall Wright devised a path diagram (1920) that illustrated factors leading to coat color. This path diagram was the first bridge ever built between causality and probability (crossing of rung two and rung one of the ladder of causality) to be published in a time when correlation was thought to be the only statistical measure that mattered. The path coefficients themselves represent the strength of the causal effect linking one variable to another. Path coefficients are not correlation values, but how are they calculated and how do they relate to correlation coefficients?
+
+![](/images/latest/path-analysis/guinea-pig-path-analysis.png)
+
+Mathematics of path analysis by Sewall Wright from 1921 in his study of guinea pig weight. Goal is to identify p (the effect of gestation period on birth weight). Wright measured 5.66 grams, which doesnt give you the direct effect but the correlation biased by other factors such as Litter Size. Can perform algebraic magic via calculations of (P, X), (L, X), and (L, P) which you would get 3 equations and solve for p, l’, and l * q. Today we can skip mathematics and use cursory inspection of the diagram. 
+
+![](/images/latest/path-analysis/judea-pearl-path.png)
+
+“Causal analysis is emphatically not just about data; in causal analysis we must incorporate some understanding of the process that produces the data, and that we get something that was not in the data to begin with…. Path analysis should be based on the users’s personal understanding of causal processes, reflected in the causal diagram. It can’t be reduced to mechanical routines, such as those laid out in statistics manual.” What Pearl is saying is path analysis requires scientific thinking to identify causality between variables. Look at the world around you or the question you are trying to answer. What have you observed and how can you intuit a causal diagram/ hypothesis about the cause and effect. Once you have these diagrams, you can then use correlation and algebra to quantify the causal affect one variable has on another. 
+
+Criticisms by Karlin 
+-1) assumptions of linearity between causes but Judea Pearl devises a nonlinear theory for this. 
+-2) big data is all you need, just squeeze and torture data to drop pearls of wisdom… 
+
+### Testing path analysis
+
+No amount of regurgitation of what I read can replace practice. Much to my surprise, I realized that I’ve skimmed the surface of causal diagrams but never had the quantitative tools to link the correlations I saw to causation. Back in 2018, before the submission of my first peer reviewed article, I proposed this diagram below. It was a path analyses hypothesis based on watching hundreds of thousands trials and parsing through choice probabilities across dozens of animals. Looking back on it now, I’d summarize and given the correlation values I’ve seen and performing cursory inspection (or  “algebraic magic” as Pearl likes to call it), I could calculate the causal effect of specific features on driving location perception. voila.
+
+![](/images/latest/path-analysis/FigCartoonSummary_V2.png)
+
+
