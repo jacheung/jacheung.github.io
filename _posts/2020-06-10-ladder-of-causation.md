@@ -47,5 +47,8 @@ Much to my surprise, I realized that I’ve skimmed the surface of causal diagra
 
 ![](/images/latest/path-analysis/FigCartoonSummary_V2.png)
 
-I am by no means an expert on causal inference and have yet to see the depths of insights it can provide to machine intelligence. However, I am in favor of Pearl's line of thinking. Causal inference requires us to employ scientific thinking. It requires us to take a step back, observe the world, and hypothesize a testable model for how the world may operate. It leads us to see beyond data as a crystal ball and recognize that it is purely a tool for understanding the world. This is purely anecdotal but our brains don't purely use data to estimate the world around us. Instead we use a combination of data and a modeled expectation of world. Why should we expect machine intelligence to use just data? 
+### Final thoughts
 
+I am by no means an expert on causal inference and have yet to uncover all the arguments Pearl makes. However, I am in favor of Pearl's line of thinking. Causal inference requires us to employ scientific thinking. It requires us to take a step back, observe the world, and hypothesize a testable model for how the world may operate. It leads us to see beyond data as a crystal ball and recognize that it is purely a tool for understanding the world. This is purely anecdotal but our brains don't purely use data to estimate the world around us. Instead we use a combination of data and a modeled expectation of world, so why wouldn't we build machines that do that also? 
+
+Back to reading!
