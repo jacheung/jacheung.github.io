@@ -7,7 +7,7 @@ comments: true
 featured_image: '/images/latest/path-analysis/top-down.JPG'
 ---
 
-On my quest to build smarter AI systems we can trust and understand, I’ve found myself breezing through Judea Pearl’s book “The Book of Why” to understand causal reasoning. Pearl pitches the use of causal models as a bridge from objective data to subjective reasoning. If machines were able to build causal (or what Pearl refers to as subjective hypotheses) models of the world, they would not require massive amounts of data to train and could extrapolate experiences to unknown instances. In a sense, machines could creatively make hypothesis about the world and test them and importantly, explain to humans why they made certain decisions!
+On my quest to build smarter AI systems we can trust and understand, I’ve found myself breezing through Judea Pearl’s book “The Book of Why” to understand causal reasoning. Pearl pitches the use of causal models as a bridge from objective data to subjective reasoning. If machines were able to build causal (or what Pearl refers to as subjective hypotheses) models of the world, they would not require massive amounts of data to train and could extrapolate experiences to unknown instances. In a sense, machines could creatively make hypothesis about the world and test them and explain to humans, via a causal model, why a certain decision was predicted. 
 
 ### The ladder of causation 
 
@@ -19,8 +19,8 @@ Pearl first frames the benefits of causal reasoning via the Ladder of Causation.
 
 Pearl agues that data by itself is dumb. At the crux of his argument, data is unable to surpass rung one of the ladder. Machines using just data are unable to answer questions “what would happen if I did this” in Rung Two and importantly “what if i had done this instead?” in Rung Three. In a sense, machines are unable to predict cases that deviate too far from what they have seen. 
 
-> “While probabilities encode our beliefs about a static world, causality tells us whether and how probabilities change when the world changes, be it by intervention or act of imagination.”
-- Judea Pearl
+> “While probabilities encode our beliefs about a static world, causality tells us whether and how probabilities change when the world changes, be it by intervention or act of imagination.”  
+-Judea Pearl
 
 ### A tool to quantify causation - path analysis
 
@@ -30,17 +30,16 @@ Now path analysis wasn’t Pearl idea but a revival of Sewall Wright’s ideas b
 
 ![](/images/latest/path-analysis/guinea-pig-path-analysis.png)
 
-Mathematics of path analysis by Sewall Wright from 1921 in his study of guinea pig weight. Goal is to identify p (the effect of gestation period on birth weight). Wright measured 5.66 grams, which doesnt give you the direct effect but the correlation biased by other factors such as Litter Size. Can perform algebraic magic via calculations of (P, X), (L, X), and (L, P) which you would get 3 equations and solve for p, l’, and l * q. Today we can skip mathematics and use cursory inspection of the diagram. 
+Below are the mathematics of path analysis by Sewall Wright from 1921 in his study of guinea pig weight. Wright had one goal: to identify *p* (the effect of gestation period on birth weight). Wright measured 5.66 grams gained per day of gestation. However, this number doesnt give the direct effect *p* but the correlation biased by other factors such as Litter Size. To identify *p* one can perform algebraic magic via calculations of (P, X), (L, X), and (L, P) which would return 3 equations and solve for p, l’, and l * q. Given this, the true weight gained per day of gestation would be 3.34 grams. This is amazing because given one single correlation value, 5.66 grams, and a hypothesized causal diagram of the world one would be able to distill the causal effect of one variable on another! 
 
 ![](/images/latest/path-analysis/judea-pearl-path.png)
 
-> “Causal analysis is emphatically not just about data; in causal analysis we must incorporate some understanding of the process that produces the data, and that we get something that was not in the data to begin with…. Path analysis should be based on the users’s personal understanding of causal processes, reflected in the causal diagram. It can’t be reduced to mechanical routines, such as those laid out in statistics manual.”
-- Judea Pearl 
+> “Causal analysis is emphatically not just about data; in causal analysis we must incorporate some understanding of the process that produces the data, and that we get something that was not in the data to begin with…. Path analysis should be based on the users’s personal understanding of causal processes, reflected in the causal diagram. It can’t be reduced to mechanical routines, such as those laid out in statistics manual.”  
+-Judea Pearl 
 
  What Pearl is saying is path analysis requires scientific thinking to identify causality between variables. Look at the world around you or the question you are trying to answer. What have you observed and how can you intuit a causal diagram/hypothesis about the cause and effect? Once you have these diagrams, you can then use correlations between variables and basic algebra to quantify the causal affect one variable has on another. 
 
 One caveat of path analysis is that it assumes linearity between variables. However, the world may not operate linearly. Pearl and Versa identify a [general non-linear theory](https://www.sciencedirect.com/science/article/pii/S0049237X06800741) to address this. 
-
 
 ### Testing path analysis
 
@@ -48,4 +47,5 @@ Much to my surprise, I realized that I’ve skimmed the surface of causal diagra
 
 ![](/images/latest/path-analysis/FigCartoonSummary_V2.png)
 
+I am by no means an expert on causal inference and have yet to see the depths of insights it can provide to machine intelligence. However, I am in favor of Pearl's line of thinking. Causal inference requires us to employ scientific thinking. It requires us to take a step back, observe the world, and hypothesize a testable model for how the world may operate. It leads us to see beyond data as a crystal ball and recognize that it is purely a tool for understanding the world. This is purely anecdotal but our brains don't purely use data to estimate the world around us. Instead we use a combination of data and a modeled expectation of world. Why should we expect machine intelligence to use just data? 
 
