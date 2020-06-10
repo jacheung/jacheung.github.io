@@ -39,12 +39,12 @@ Mathematics of path analysis by Sewall Wright from 1921 in his study of guinea p
 
  What Pearl is saying is path analysis requires scientific thinking to identify causality between variables. Look at the world around you or the question you are trying to answer. What have you observed and how can you intuit a causal diagram/hypothesis about the cause and effect? Once you have these diagrams, you can then use correlations between variables and basic algebra to quantify the causal affect one variable has on another. 
 
-One caveat of path analysis is that it assumes linearity between variables. However, the world may not operate linearly. Pearl and Versa identify a [general non-linear theory]('https://www.sciencedirect.com/science/article/pii/S0049237X06800741') to address this. 
+One caveat of path analysis is that it assumes linearity between variables. However, the world may not operate linearly. Pearl and Versa identify a [general non-linear theory](https://www.sciencedirect.com/science/article/pii/S0049237X06800741) to address this. 
 
 
 ### Testing path analysis
 
-Much to my surprise, I realized that I’ve skimmed the surface of causal diagrams but never had the quantitative tools to link the correlations I saw to causation. Back in 2018, before the submission of my [first peer reviewed article]('http://jacheung.com/images/localization-behavior.pdf'), I proposed the diagram below in an internal meeting. It was a causal diagram based on watching thousands of performed trials and parsing through choice probabilities across dozens of animals. Looking back on it now, I’d summarize and given the correlation values I’ve seen and performing cursory inspection (or  “algebraic magic” as Pearl likes to call it), I could calculate the causal effect of specific features on driving location perception. *voila*.
+Much to my surprise, I realized that I’ve skimmed the surface of causal diagrams but never had the quantitative tools to link the correlations I saw to causation. Back in 2018, before the submission of my [first peer reviewed article](http://jacheung.com/images/localization-behavior.pdf), I proposed the diagram below in an internal meeting. It was a causal diagram based on watching thousands of performed trials and parsing through choice probabilities across dozens of animals. Looking back on it now, I’d summarize and given the correlation values I’ve seen and performing cursory inspection (or  “algebraic magic” as Pearl likes to call it), I could calculate the causal effect of specific features on driving location perception. *voila*.
 
 ![](/images/latest/path-analysis/FigCartoonSummary_V2.png)
 
