@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ideas on causal thinking.
+title: Initial thoughts on causal inference.
 subtitle: Thoughts on building better AI. 
 tags: [AI]
 comments: true
