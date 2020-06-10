@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Beyond correlation to quantifying causation. 
+title: Beyond correlation to causation. 
 subtitle: Thoughts on building better AI. 
 tags: [AI]
 comments: true
+featured_image: '/images/latest/path-analysis/guinea-pig-path-analysis.png'
 ---
 
 On my quest to build smarter AI systems we can trust and understand, I’ve found myself breezing through Judea Pearl’s book “The Book of Why” to understand causal reasoning. Pearl pitches the use of causal models as a bridge from objective data to subjective reasoning. If machines were able to build causal (or what Pearl refers to as subjective hypotheses) models of the world, they would not require massive amounts of data to train and could extrapolate experiences to unknown instances. In a sense, machines could creatively make hypothesis about the world and test them. 
@@ -33,15 +34,17 @@ Mathematics of path analysis by Sewall Wright from 1921 in his study of guinea p
 
 ![](/images/latest/path-analysis/judea-pearl-path.png)
 
-“Causal analysis is emphatically not just about data; in causal analysis we must incorporate some understanding of the process that produces the data, and that we get something that was not in the data to begin with…. Path analysis should be based on the users’s personal understanding of causal processes, reflected in the causal diagram. It can’t be reduced to mechanical routines, such as those laid out in statistics manual.” What Pearl is saying is path analysis requires scientific thinking to identify causality between variables. Look at the world around you or the question you are trying to answer. What have you observed and how can you intuit a causal diagram/ hypothesis about the cause and effect. Once you have these diagrams, you can then use correlation and algebra to quantify the causal affect one variable has on another. 
+> “Causal analysis is emphatically not just about data; in causal analysis we must incorporate some understanding of the process that produces the data, and that we get something that was not in the data to begin with…. Path analysis should be based on the users’s personal understanding of causal processes, reflected in the causal diagram. It can’t be reduced to mechanical routines, such as those laid out in statistics manual.”
+- Judea Pearl 
 
-Criticisms by Karlin 
--1) assumptions of linearity between causes but Judea Pearl devises a nonlinear theory for this. 
--2) big data is all you need, just squeeze and torture data to drop pearls of wisdom… 
+ What Pearl is saying is path analysis requires scientific thinking to identify causality between variables. Look at the world around you or the question you are trying to answer. What have you observed and how can you intuit a causal diagram/hypothesis about the cause and effect? Once you have these diagrams, you can then use correlations between variables and basic algebra to quantify the causal affect one variable has on another. 
+
+One caveat of path analysis is that it assumes linearity between variables. However, the world may not operate linearly. Pearl and Versa identify a [general non-linear theory]('https://www.sciencedirect.com/science/article/pii/S0049237X06800741') to address this. 
+
 
 ### Testing path analysis
 
-No amount of regurgitation of what I read can replace practice. Much to my surprise, I realized that I’ve skimmed the surface of causal diagrams but never had the quantitative tools to link the correlations I saw to causation. Back in 2018, before the submission of my first peer reviewed article, I proposed this diagram below. It was a path analyses hypothesis based on watching hundreds of thousands trials and parsing through choice probabilities across dozens of animals. Looking back on it now, I’d summarize and given the correlation values I’ve seen and performing cursory inspection (or  “algebraic magic” as Pearl likes to call it), I could calculate the causal effect of specific features on driving location perception. voila.
+Much to my surprise, I realized that I’ve skimmed the surface of causal diagrams but never had the quantitative tools to link the correlations I saw to causation. Back in 2018, before the submission of my [first peer reviewed article]('http://jacheung.com/images/localization-behavior.pdf'), I proposed the diagram below in an internal meeting. It was a causal diagram based on watching thousands of performed trials and parsing through choice probabilities across dozens of animals. Looking back on it now, I’d summarize and given the correlation values I’ve seen and performing cursory inspection (or  “algebraic magic” as Pearl likes to call it), I could calculate the causal effect of specific features on driving location perception. *voila*.
 
 ![](/images/latest/path-analysis/FigCartoonSummary_V2.png)
 
