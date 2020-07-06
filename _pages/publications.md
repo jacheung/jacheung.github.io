@@ -4,7 +4,7 @@ subtitle: These are some of the projects I've had the pleasure of heading or bei
 description: These are some of the projects I've had the pleasure of heading and being a part of. 
 featured_image: 
 ---
-![](/images/landscapes/sfn-2016.jpg)
+![](/images/latest/sfn-2016.jpg)
 
 Kim J, **Cheung JA**, Hires SA (2020) – Behavioral and neural bases of tactile shape discrimination learning in head-fixed mice (*in review*, [pdf](https://jacheung.github.io/images/documents/angle-code.pdf))  
 
