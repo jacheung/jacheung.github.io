@@ -5,12 +5,7 @@ description: These are some of the projects I've had the pleasure of heading and
 featured_image: 
 ---
 
-<div class="gallery" data-columns="1">
-	<img src="/images/latest/sfn-2016.JPG">
-	<img src="/images/latest/sfn-2018.JPG">
-</div>
-
-![](/images/latest/sfn-2018.JPG)
+![](/images/landscapes/flat-lay.jpg)
 
 Kim J, **Cheung JA**, Hires SA (2020) – Behavioral and neural bases of tactile shape discrimination learning in head-fixed mice (*in review*, [pdf](https://jacheung.github.io/images/documents/angle-code.pdf))  
 
