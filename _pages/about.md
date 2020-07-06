@@ -5,9 +5,9 @@ description: Just a bit about who and I am and where I've been!
 featured_image: /images/vertical-portrait.jpg
 ---
 
-![](/images/latest/birthday-2019.jpg)
+![](/images/landscapes/flat-lay.jpg)
 
-Check out my [Resume](https://jacheung.github.io/images/documents/Resume-200522.pdf) and [CV](https://jacheung.github.io/images/documents/CV-200522.pdf).
+Check out my [Resume](https://jacheung.github.io/images/documents/Resume_200706.pdf) and [CV](https://jacheung.github.io/images/documents/CV_200706.pdf).
 
 I spend a lot of time thinking about solving problems with data and building AI we can trust. 
 
