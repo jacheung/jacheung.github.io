@@ -1,6 +1,6 @@
 ---
 title: Publications.
-subtitle: Check out some of my publications.
+subtitle: These are some of the projects I've had the pleasure of heading or being a part of.
 description: These are some of the projects I've had the pleasure of heading and being a part of. 
 featured_image: /images/latest/sfn-2016.jpg
 ---
