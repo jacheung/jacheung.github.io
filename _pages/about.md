@@ -15,3 +15,12 @@ I grew up in San Francisco and fell in love with neuroscience after watching my 
 
 When I'm not reading the latest in interpretable AI tools I'm braising short ribs, dry aging steaks, or tossing some food on the grill while chatting with friends and throwing back a beer. 
 
+
+### Publications
+Kim J, Cheung JA, Hires SA (2020) – Behavioral and neural bases of tactile shape discrimination learning in head-fixed mice (in review, [pdf](/images/angle-code.pdf))  
+
+Cheung JA, Maire P, Kim J, Lee K, Flynn G, Hires SA (2020) – Active touch remaps barrel cortex output from a representation of self-motion to object location. (in review, [pdf](/images/location-code.pdf))  
+
+Cheung JA, Maire P, Kim J, Sy J, Hires SA (2019) – The behavioral basis of whisker-guided anteroposterior object localization in head-fixed mice. (Current Biology, [pdf](/images/localization-behavior.pdf))
+
+
