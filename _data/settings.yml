@@ -10,7 +10,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Latest'
+    - title: 'Thoughts'
       url: '/'
     - title: 'Projects'
       url: '/projects/'
@@ -72,8 +72,8 @@ font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600" rel="stylesheet">'
   title_font: '"Merriweather", sans-serif'
   body_font: '"Muli", sans-serif'
-  regular_weight: 400
-  bold_weight: 700
+  regular_weight: 300
+  bold_weight: 800
   site_title:
     small_size: 25
     medium_size: 30
