@@ -7,8 +7,7 @@ comments: true
 featured_image: '/images/landscapes/yosemite-sunset.jpg'
 ---
 
-I hold fast to what the director of the National Institute of Health, Francis Collins, shared to us young researchers before we set off for graduate school: 
-> "A doctoral degree is a degree in critical thinking. It is not a degree limited to the field you are studying. Take steps to cultivate an environment and rhythms where you'll love learning and grow in your craft."  
+"A doctoral degree is a degree in critical thinking. It is not a degree limited to the field you are studying. Take steps to cultivate an environment and rhythms where you'll love learning and grow in your craft."  
 -Francis Collins
 
 On April 20th, 2020 I successfully defended my thesis, “The Behavioral and Neural Bases of Tactile Object Localization”. As I look back, I feel lucky and grateful to have had a wonderfully productive Ph.D. experience. I believe that the [Hires laboratory](https://www.hireslab.org/), established in 2014 and though young, is in the top 5% of neuroscience labs because of the brilliant minds that are in it, the questions we're answering, the tools we're using, and the discoveries we have made. During my time from 2015 to 2020, I have authorship in 4 high-impact research articles. As I look back, I attribute this productivity to the environment I was placed in and cultivating healthy rhythms early. I've listed below what I believe made my doctoral journey so successful.

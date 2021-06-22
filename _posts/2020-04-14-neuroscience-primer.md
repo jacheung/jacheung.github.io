@@ -7,6 +7,8 @@ comments: true
 featured_image: '/images/landscapes/yosemite-trees.jpg'
 ---
 
+The brain and behavior are inextricably linked; rodents serve as powerful models to study this.
+
 #### The brain and behavior.
 
 The brain and behavior are inextricably linked and rodents serve as powerful models to study this. To understand the fundamentals of how the brain represents the outside world, we must first define a behavior, measure the brain during behavior, and finally manipulate the brain to observe how behavior changes. Compared to humans and non-human primates, mice are unmatched in the diversity and sophistication of tools available to label, record, and finely assess the brain across a range of rich behaviors. They stand as model systems to study the brain and how it drives perception. 

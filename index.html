@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Still learning.
+title: Current thoughts.
 description: Feel free to poke around and see my interests, current projects, and past works. 
 featured_image: /images/base-image.jpg
 ---
@@ -16,13 +16,11 @@ featured_image: /images/base-image.jpg
 			<div class="blog-post__header">
 				<h2 class="blog-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
-			</div>
-
 			{% if post.featured_image %}
 			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }}); background-size: 60%;"></a>
 			{% endif %}
-
 			<div class="blog-post__content">
+				<p>{{ post.excerpt }}</p>
 				<p><a href="{{ post.url | relative_url }}" class="button">Read More</a>
 			</div>
 

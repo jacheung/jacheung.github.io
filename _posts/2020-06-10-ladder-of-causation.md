@@ -7,6 +7,8 @@ comments: true
 featured_image: '/images/latest/path-analysis/TheBookOfWhy.jpeg'
 ---
 
+Causal models lead us to see beyond data as a crystal ball and recognize that it is purely a tool for understanding the world.
+
 On my quest to build smarter AI systems we can trust and understand, I’ve found myself perusing Judea Pearl’s book “The Book of Why” to understand causal inference. Pearl pitches the use of causal models as a bridge from objective data to subjective reasoning. If machines were able to build causal (or what Pearl refers to as subjective hypotheses) models of the world, they would not require massive amounts of data to train and could extrapolate experiences to unknown instances. In a sense, machines could creatively make a hypothesis about the world, test them and explain to humans, via a causal model, why a certain decision was predicted. 
 
 Below are a collection of initial thoughts. 
