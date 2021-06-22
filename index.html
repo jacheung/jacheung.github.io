@@ -19,7 +19,7 @@ featured_image: /images/base-image.jpg
 			</div>
 
 			{% if post.featured_image %}
-			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }}); background-size: 300px 100px;"></a>
+			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }}); background-size: auto; background-clip: padding-box;"></a>
 			{% endif %}
 
 			<div class="blog-post__content">
