@@ -7,7 +7,7 @@ featured_image: /images/vertical-portrait.jpg
 
 ![](/images/landscapes/flat-lay.jpg)
 
-Check out my [Resume](https://jacheung.github.io/images/documents/Resume_200710.pdf) and [CV](https://jacheung.github.io/images/documents/Jonathan_Cheung_CV_210505.pdf).
+Check out my [Resume](https://jacheung.github.io/images/documents/JC_Resume_230105.pdf) and [CV](https://jacheung.github.io/images/documents/JC_CV_230105.pdf).
 
 I spend a lot of time thinking about solving problems with data and building AI we can trust. 
 
