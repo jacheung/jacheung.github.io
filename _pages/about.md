@@ -17,7 +17,7 @@ I spend a lot of time thinking about solving problems with data and building AI 
 **What I've learned:** At each node of my educational track, I gained a deeper appreciation for the tools used to anchor abstract concepts (e.g. thought/perception) into quantifiable metrics. My doctorate revealed the insights machine-learning tools could provide to the study of touch perception; working as a data scientist highlighted the value that automation and data pipelines brought to scaling business solutions.  
 
 
-**Where I'm at now:** My excitement for automation, scalability, and building AI we can trust lead me to where I am now: a data scientist in the AI Solutions group at [Beyond Limits](https://www.beyond.ai/).  
+**Where I'm at now:** My excitement for automation, scalability, and building AI we can trust lead me to where I am now: a senior data scientist in the AI Solutions group at [Beyond Limits](https://www.beyond.ai/).  
 
 
 When I’m not reading a book, you can find me braising short ribs, making pesto and pasta from scratch, or tossing some food on the grill.
